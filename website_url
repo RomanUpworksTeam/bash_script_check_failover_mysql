@@ -1,1 +1,8 @@
 https://tapasmishra.wordpress.com/2012/06/25/how-to-configure-mysql-failover-using-a-bash-script/
+ssh -fNT -R 8080:178.162.207.220:8000 root@cephmon01
+
+
+توی سرور 220 میزنیم
+پورت 8080 
+cephmon01 
+رو به پورت 8000 220 وصل میکنه
