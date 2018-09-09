@@ -1,0 +1,1 @@
+# bash_script_check_failover_mysql
