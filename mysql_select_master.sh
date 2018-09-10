@@ -1,13 +1,4 @@
 #!/bin/bash
-while(true)
-do
-/bin/bash ./mysql_select_master.sh 1>&2
-sleep 10;
-done
-
-
-[root@cephnode01 mysql_failover]# cat mysql_select_master.sh
-#!/bin/bash
 DATE=`date '+%Y-%m-%d %H:%M:%S'`
 old_status1=`cat ./status1`
 old_status2=`cat ./status2`
