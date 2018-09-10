@@ -6,7 +6,7 @@ mysql -h178.162.203.108 -P3306 -uroot -p$MYSQL_PWD -e"GRANT ALL PRIVILEGES ON *.
 mysql -h178.162.203.108 -P3306 -uroot -p$MYSQL_PWD -e"FLUSH PRIVILEGES;"
 
 
-MYSQL_PWD="root"
+MYSQL_PWD=root
 
 # Note: NETWORK_NAME is only used for standalone scripts
 NETWORK_NAME=repl
